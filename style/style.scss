@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+.progress-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative; /* Add position relative for positioning the progress text */
+}
+
+.progress-bar {
+    width: 0;
+    height: 30px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    transition: width 0.5s ease-in-out;
+}
+
+#progressText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    color: #000;
+}
